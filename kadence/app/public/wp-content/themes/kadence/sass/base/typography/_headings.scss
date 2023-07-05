@@ -1,0 +1,57 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+
+	&.kadence-bold {
+		font-weight: 700;
+	}
+
+	&.kadence-heading-xl {
+		font-size: 64px;
+		line-height: 120%;
+		letter-spacing: -0.64px;
+	}
+
+	&.kadence-heading-lg {
+		font-size: 56px;
+		line-height: 120%;
+		letter-spacing: -0.56px;
+	}
+
+	&.kadence-heading-md {
+		font-size: 48px;
+		line-height: 120%;
+		letter-spacing: -0.48px;
+	}
+
+	&.kadence-heading-sm {
+		font-size: 40px;
+		line-height: 125%;
+		letter-spacing: -0.4px;
+	}
+
+	&.kadence-subheading-lg {
+		font-size: 32px;
+		line-height: 145%;
+		letter-spacing: -0.32px;
+	}
+
+	&.kadence-subheading-md {
+		font-size: 24px;
+		line-height: 140%;
+		letter-spacing: -0.24px;
+	}
+
+	&.kadence-subheading-sm {
+		font-size: 20px;
+		line-height: 150%;
+	}
+}

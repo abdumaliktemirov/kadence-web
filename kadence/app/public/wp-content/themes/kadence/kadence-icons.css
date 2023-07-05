@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'KadenceIcons';
+  src:  url('fonts/KadenceIcons.eot?b0zgv7');
+  src:  url('fonts/KadenceIcons.eot?b0zgv7#iefix') format('embedded-opentype'),
+    url('fonts/KadenceIcons.ttf?b0zgv7') format('truetype'),
+    url('fonts/KadenceIcons.woff?b0zgv7') format('woff'),
+    url('fonts/KadenceIcons.svg?b0zgv7#KadenceIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="kaicon-"], [class*=" kaicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'KadenceIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kaicon-arrow-right:before {
+  content: "\e900";
+}
+.kaicon-right:before {
+  content: "\e901";
+}
+.kaicon-left:before {
+  content: "\e902";
+}
+.kaicon-up:before {
+  content: "\e903";
+}
+.kaicon-down:before {
+  content: "\e904";
+}
+.kaicon-play:before {
+  content: "\e905";
+}
+.kaicon-user-square:before {
+  content: "\e906";
+}
+.kaicon-user-plus:before {
+  content: "\e907";
+}
+.kaicon-building:before {
+  content: "\e908";
+}
+.kaicon-calendar-plus:before {
+  content: "\e909";
+}
+.kaicon-calendar-check:before {
+  content: "\e90a";
+}
+.kaicon-monitor:before {
+  content: "\e90b";
+}
+.kaicon-layers-three:before {
+  content: "\e90c";
+}
+.kaicon-flex-align-bottom:before {
+  content: "\e90d";
+}
+.kaicon-phone-call:before {
+  content: "\e90e";
+}
+.kaicon-message-chat-square:before {
+  content: "\e90f";
+}
+.kaicon-send:before {
+  content: "\e910";
+}
+.kaicon-marker-pin:before {
+  content: "\e911";
+}
+.kaicon-info-circle:before {
+  content: "\e912";
+}
+.kaicon-plus:before {
+  content: "\e913";
+}
+.kaicon-x-close:before {
+  content: "\e914";
+}
+.kaicon-menu:before {
+  content: "\e915";
+}
+.kaicon-minus:before {
+  content: "\e916";
+}
+.kaicon-check-circle-broken:before {
+  content: "\e917";
+}
+.kaicon-linkedin:before {
+  content: "\e918";
+}
+.kaicon-twitter:before {
+  content: "\e919";
+}
+.kaicon-facebook:before {
+  content: "\e91a";
+}
+.kaicon-youtube:before {
+  content: "\e91b";
+}

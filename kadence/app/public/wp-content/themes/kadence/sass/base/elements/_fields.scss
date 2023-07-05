@@ -1,0 +1,72 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	border: none;
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 160%;
+	padding: 8px 0;
+	width: 100%;
+	border-radius: 0;
+	color: $color__text-input;
+
+	&:focus,
+	&:focus-visible {
+		outline: unset;
+		border-bottom: 1px solid #171717;
+		color: $color__text-input-focus;
+	}
+
+	&::placeholder {
+		color: $color__text-input;
+		font-size: 16px;
+		line-height: 160%;
+	}
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+textarea {
+	width: 100%;
+}
+
+label {
+	font-size: 14px;
+	line-height: 160%;
+	font-weight: 500;
+	color: #171717;
+}
+
+.wpcf7-form {
+	.horizontal {
+		display: flex;
+		gap: 24px;
+	}
+
+	.wpcf7-form-control {
+		margin-bottom: 24px;
+	}
+
+	.wpcf7-not-valid-tip {
+		color: #EF4444;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 160%;
+	}
+}
