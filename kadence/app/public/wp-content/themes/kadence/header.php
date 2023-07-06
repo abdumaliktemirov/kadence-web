@@ -26,7 +26,9 @@
 	<header id="masthead" class="site-header container">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Navbar</a>
+				<a class="navbar-brand" href="#">
+				<img class="header-logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/header-logo.png">
+				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-primary" aria-controls="main-primary" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -44,6 +46,10 @@
 						)
 					);
 					?>
+					<div class="header-btn">
+						<button class="btn disabled">Sign in</button>
+						<button class="btn btn-primary">Book a Demo</button>
+					</div>
 				</div>
 			</div>
 		</nav>

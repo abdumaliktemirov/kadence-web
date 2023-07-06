@@ -62,6 +62,13 @@ label {
 	.wpcf7-form-control {
 		margin-bottom: 24px;
 	}
+	.wpcf7-submit{
+		&::before{
+			content: "\e901";
+			font-family: 'KadenceIcons' !important;
+			display: block;
+		}
+	}
 
 	.wpcf7-not-valid-tip {
 		color: #EF4444;

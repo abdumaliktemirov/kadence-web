@@ -1,0 +1,5 @@
+[06-Jul-2023 12:29:22 UTC] Cron reschedule event error for hook: rsssl_every_five_minutes_hook, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[06-Jul-2023 12:29:22 UTC] Cron reschedule event error for hook: rsssl_every_three_hours_hook, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"rsssl_every_three_hours","args":[],"interval":10800}
+[06-Jul-2023 12:29:22 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[06-Jul-2023 12:29:25 UTC] Cron reschedule event error for hook: rsssl_every_week_hook, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"rsssl_weekly","args":[],"interval":604800}
+[06-Jul-2023 12:29:25 UTC] Cron reschedule event error for hook: rsssl_every_day_hook, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"rsssl_daily","args":[],"interval":86400}

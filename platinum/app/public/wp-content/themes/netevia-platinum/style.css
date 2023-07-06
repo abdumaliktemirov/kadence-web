@@ -1,0 +1,418 @@
+/*!
+Theme Name: Netevia Platinum
+Theme URI: http://underscores.me/
+Author: Netevia
+Author URI: https://netevia.com
+Description: Platinum theme for Netevia
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: netevia-platinum
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Netevia Platinum is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+html {
+	overflow-x: hidden;
+}
+
+.netevia-platinum .nav-mobile__text.no-children:before,
+.netevia-platinum .nav-mobile__text.no-children:after {
+	display: none;
+}
+
+.netevia-platinum .container {
+	max-width: 1200px;
+}
+
+.netevia-platinum .nav__menu>ul>li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.netevia-platinum .footer-trademarks {
+	margin-top: 20px;
+	text-align: center;
+}
+
+section.intro {
+	height: 20vw;
+}
+
+@media only screen and (max-width: 767px) {
+	section.intro {
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	section.intro {
+		height: 40vh;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	section.intro {
+		height: 50vh;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
+	section.intro {
+		height: 70vh;
+	}
+}
+
+.netevia-platinum .intro__subtitle {
+	margin-bottom: 55px;
+}
+
+.netevia-platinum .sections-iso-program section.guide {
+	position: relative;
+	overflow: hidden;
+	padding: 90px 0 60px 0;
+}
+
+.netevia-platinum .sections-iso-program section.guide .integrate__global {
+	top: 20px;
+	opacity: 0.4;
+}
+
+.page-template-page-templatespos-system-php section.learn {
+	padding: 90px 0 60px 0;
+}
+
+@media(min-width: 768px) {
+	.page-template-page-templatespayment-php .ecommerce__content--col-1 {
+		margin-bottom: 350px;
+	}
+}
+
+.page-template-page-templatespayment-php .hand-off {
+	margin-bottom: 100px;
+}
+
+.page-template-page-templatespayment-php .needing__img picture img {
+	object-fit: unset;
+	height: 120%;
+}
+
+.page-template-page-templatespayment-php .needing__img {
+	translate: 0 10%;
+}
+
+@media(max-width: 500px) {
+	.page-template-page-templatesonline-php
+}
+
+@media(min-width: 992px) {
+	.page-template-page-templatesonline-php .contract .contract__right {
+		margin-top: 200px;
+	}
+}
+
+@media(max-width: 767px) {
+	.page-template-page-templatespayment-php .intro .intro__img {
+		min-width: unset !important;
+	}
+
+	.page-template-page-templatespayment-php section.customize {
+		margin-top: 100px;
+	}
+}
+
+.page-template-page-templatespayment-php section.benefits,
+.page-template-page-templatesonline-php section.pay-stack {
+	position: relative;
+	overflow: hidden;
+}
+
+.page-template-page-templatespayment-php section.benefits .graph-lines,
+.page-template-page-templatesonline-php section.pay-stack .graph-lines {
+	position: absolute;
+	bottom: -10px;
+}
+
+.page-template-page-templatespayment-php section.benefits .graph-lines-1,
+.page-template-page-templatesonline-php section.pay-stack .graph-lines-1 {
+	left: -5px;
+}
+
+.page-template-page-templatespayment-php section.benefits .graph-lines-2,
+.page-template-page-templatesonline-php section.pay-stack .graph-lines-2 {
+	right: -5px;
+}
+
+.page-template-page-templatesonline-php section.start-quick {
+	padding: 90px 0 60px 0;
+}
+
+@media(max-width: 1600px) {
+	.page-template-page-templatesiso-banking-php .intro .intro__img {
+		right: 10px;
+		top: 0;
+	}
+}
+
+.page-template-page-templatesiso-banking-php .available .btn-ocean {
+	max-width: fit-content;
+}
+
+.page-template-page-templatesiso-banking-php .intro__info--text {
+	margin-top: 50px;
+}
+
+.page-template-page-templatesbanking-php .rebates .rebates__sub--text-blue a {
+	color: #12c6f1;
+	text-decoration: underline;
+}
+
+.page-template-page-templatesbanking-php .rebates .rebates__sub--text-blue a:hover {
+	color: #b7ee12;
+	text-decoration: none;
+}
+
+.page-template-page-templatesbanking-php .intro:before {
+	display: none;
+}
+
+.page-template-page-templatesbanking-php .intro .intro__info--text {
+	margin-top: 160px;
+}
+
+.page-template-page-templatesbanking-php .get-day {
+	position: relative;
+	overflow: hidden;
+}
+
+.page-template-page-templatesbanking-php .get-day .blob {
+	position: absolute;
+	left: 50px;
+	bottom: -10px;
+	z-index: 1;
+}
+
+.page-template-page-templatesbanking-php .get-day .get-day__img,
+.page-template-page-templatesbanking-php .get-day .get-day__text {
+	z-index: 2;
+}
+
+.page-template-page-templatesagent-program-php .tools {
+	margin-bottom: 100px;
+}
+
+.page-template-page-templatesagent-program-php .download {
+	padding: 90px 0 60px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.page-template-page-templatesagent-program-php .download .integrate__global {
+	top: 20px;
+	opacity: 0.4;
+}
+
+.page-template-page-templatesagent-program-php .based {
+	padding: 50px 0;
+}
+
+.page-template-page-templatescontact-us-php .contact-us {
+	translate: unset;
+}
+
+.contact-us form .contact-columns-wrap {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.contact-us form .wpcf7-submit {
+	cursor: pointer;
+}
+
+.contact-us form>p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contact-us form .wpcf7-response-output {
+	margin-top: 0;
+}
+
+.page-template-page-templatescontact-us-php .contact-button {
+	margin: 10px auto 30px;
+}
+
+.page-template-page-templatescontact-us-php .contact-button p {
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+	display: flex;
+	gap: 15px;
+}
+
+.page-template-page-templatescontact-us-php .contact-us__input:focus-visible {
+	outline: none;
+}
+
+.page-template-page-templatescontact-us-php .contact-us__input {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+@media(max-width: 1600px) {
+	.banking .intro__img {
+		bottom: 100px !important;
+	}
+}
+
+/* ABDUMALIK */
+
+@media (max-width:322px) {
+	.customize__content {
+		margin-top: 190px;
+	}
+}
+
+@media (max-width:769px) {
+	.services__content {
+		margin-top: 560px;
+	}
+
+	.intro__info--text {
+		transform: translateY(586px);
+	}
+
+	.intro__info--text {
+		display: block;
+		transform: translateY(-147px);
+	}
+}
+
+@media (max-width:577px) {
+	.needing-sm {
+		transform: translateY(100px);
+	}
+
+	.possible {
+		margin-top: 100px;
+	}
+
+	.flexible__content {
+		margin-top: 150px;
+	}
+
+	.services__text {
+		margin-top: 100px;
+	}
+
+	.owners {
+		padding-top: 100px;
+	}
+
+	.agents__title {
+		margin-top: 100px;
+	}
+}
+
+@media (max-width:475px) {
+	.possible {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width:388px) {
+	.needing-sm {
+		padding-top: 150px !important;
+		transform: translateY(150px) !important;
+		border: 1px solid red;
+	}
+
+	.owners__title {
+		margin-top: 100px !important;
+		padding-top: 100px !important;
+		transform: translateY(100px) !important
+	}
+
+	.custom-title {
+		margin-top: 100px !important;
+		padding-top: 100px !important;
+		transform: translateY(100px) !important;
+	}
+
+	.agents__title {
+		padding-top: 80px;
+	}
+
+	/* .flexible__content {
+		padding-top: 80px;
+	} */
+}
+
+@media (max-width:320px) {
+	.services__title {
+		padding-top: 80px;
+	}
+}
+
+@media (max-width:620px) {
+	#wpcf7-f402-o1 {
+		width: 500px;
+	}
+
+	.wpcf7-form {
+		width: 500px;
+	}
+
+	.wpcf7-form {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+}
+@media (max-width:540px) {
+	.wpcf7-form {
+		width: 400px;
+	}
+}
+@media (max-width:440px) {
+	.wpcf7-form {
+		width: 300px;
+	}
+}
+
+@media (max-width:398px) {
+	.contact-us__title {
+		position: absolute;
+		top: 15%;
+	}
+}
+@media (max-width:388px) {
+	.contact-us__title {
+		position: absolute;
+		top: -160px;
+	}
+}
+
+#wpcf7-f402-o1 {
+	width: 600px;
+}
+
+#wpcf7-f402-o1 select {
+	color: rgb(4, 4, 4);
+}
